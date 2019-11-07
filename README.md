@@ -35,3 +35,4 @@ ngrep
 ngrep -l -q -d eth0 -i "^GET |^POST " tcp and port 80
 find / -type f -size +500000k -exec ls -lh {} \; | awk '{ print $9 ": " $5 }'
 ```
+grep -rnw '/var/www/html/' -e 'quickview'
