@@ -1,4 +1,4 @@
-Disable FirewallD
+# Disable FirewallD
 To disable the FirewallD on your CentOS 7 system, follow these steps:
 
 Type the following command to stop the FirewallD service:
