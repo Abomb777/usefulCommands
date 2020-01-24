@@ -1,5 +1,5 @@
 # Disable FirewallD
-To disable the FirewallD on your CentOS 7 system, follow these steps:
+### To disable the FirewallD on your CentOS 7 system, follow these steps:
 
 Type the following command to stop the FirewallD service:
 ```sh
@@ -20,7 +20,7 @@ sudo systemctl mask --now firewalld
 
 
 
-Install and Enable Iptables
+###Install and Enable Iptables
 Perform the following steps to install Iptables on a CentOS 7 system:
 
 Run the following command to install the iptables-service package from the CentOS repositories:
