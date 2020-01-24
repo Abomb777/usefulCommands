@@ -4,5 +4,5 @@ ssh-keygen -t rsa
 ```
 
 ```ssh
-scp ~/.ssh/id_rsa.pub root@HOST
+ssh-copy-id -i ~/.ssh/mykey user@host
 ```
