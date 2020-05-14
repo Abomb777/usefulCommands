@@ -41,3 +41,8 @@ App by PID
 ```sh
 ps -p 26444 -o comm=
 sh
+
+process tree
+```sh
+ps axjf
+```
