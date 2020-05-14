@@ -40,7 +40,7 @@ grep -rnw '/var/www/html/' -e 'quickview'
 App by PID
 ```sh
 ps -p 26444 -o comm=
-sh
+```
 
 process tree
 ```sh
